@@ -1,0 +1,16 @@
+GET http://localhost:5000/
+
+###
+POST http://localhost:5000/api/register
+Content-Type: application/json
+
+{
+    "name":"Ritesh",
+    "email":"riteshkhore@gmail.com",
+    "number":9970834262,
+    "password":"ritesh",
+    "district":"pune",
+    "subDistrict":"Baramati",
+    "village":"Malegoan",
+    "address":"malegoan"
+}
