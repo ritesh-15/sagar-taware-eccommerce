@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #f0f0f0;
+  overflow: auto;
+}
+
+button,
+a,
+input,
+textarea {
+  font-family: inherit;
+}
+
+:root {
+  --primary: #ff4135;
+  --pure: #fff;
+  --text-light: #8e8e8e;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a {
+  font-size: 1rem;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.App {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.btn-arrow {
+  font-weight: 600;
+}
+
+.show {
+  background: var(--primary) !important;
+}
+.show-searchbar {
+  opacity: 1 !important;
+}
+
+.assured {
+  margin-left: 1rem;
+  font-size: 1rem !important;
+  color: rgb(11, 201, 11);
+}
+
+.close-icon {
+  position: absolute;
+  right: -30px;
+  color: var(--pure);
+  font-size: 2rem !important;
+  cursor: pointer;
+  top: -30px;
+}
+
+.active-tab {
+  background-color: #fff !important;
+  border-color: var(--primary) !important;
+  color: var(--primary);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1) !important;
+}
+
+.modal-close {
+  opacity: 0;
+  pointer-events: none;
+}
